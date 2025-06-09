@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO & Meta Tags Otimizadas -->
+  <title>Comprar Produtos Forever Living | Consultoria WhatsApp</title>
+  <meta name="description"
+    content="Compre seu Aloe Vera Gel e outros produtos Forever Living com consultoria especializada via WhatsApp. Atendimento personalizado para seu bem-estar.">
+  <meta name="keywords"
+    content="comprar produtos forever living, consultor forever living, aloe vera gel, forever living brasil, FBO forever living, forever bright toothgel, onde comprar forever living">
+
+  <!-- Favicon (Ícone da Aba do Navegador) -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+
+  <!-- Social Preview: Open Graph (Facebook, WhatsApp, etc.) -->
+  <!-- Tamanho de imagem recomendado: 1200x630 pixels -->
+  <meta property="og:title" content="Produtos Forever Living | Consultoria Especializada via WhatsApp">
+  <meta property="og:description"
+    content="Encontre os melhores produtos Forever Living e receba consultoria exclusiva via WhatsApp. Qualidade e bem-estar ao seu alcance.">
+  <meta property="og:image" content="https://thumbs2.imgbox.com/54/8f/vqqKPE8W_t.png">
+  <meta property="og:url" content="https://produtoforever.com.br">
+  <meta property="og:type" content="website">
+
+  <!-- Social Preview: Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Produtos Forever Living | Consultoria Especializada via WhatsApp">
+  <meta name="twitter:description"
+    content="Encontre os melhores produtos Forever Living e receba consultoria exclusiva via WhatsApp. Qualidade e bem-estar ao seu alcance.">
+  <meta name="twitter:image" content="https://thumbs2.imgbox.com/54/8f/vqqKPE8W_t.png">
+
+  <!-- Outros Links e Scripts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Lato:wght@400;700&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+      background-color: #FDFBF7;
+      color: #333333;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .hero-bg {
+      background-image: url('./assets/bg-hero.webp');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .whatsapp-button {
+      background-color: #25D366;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .whatsapp-button:hover {
+      transform: scale(1.05);
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .tab-button.active {
+      border-color: #8A9A5B;
+      background-color: #F0F2E6;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease-in-out;
+    }
+
+    .faq-question .faq-icon {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .faq-question.open .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    .soft-shadow {
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+
+<body class="antialiased">
+
+  <!-- Header -->
+  <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center">
+          <span class="text-2xl font-bold text-gray-800">Produto<span class="text-[#8A9A5B]">Forever</span></span>
+        </div>
+        <div class="hidden md:block">
+          <nav class="flex items-center space-x-4">
+            <a href="#produtos" class="text-gray-600 hover:text-[#8A9A5B] transition-colors duration-300">Produtos</a>
+            <a href="#beneficios"
+              class="text-gray-600 hover:text-[#8A9A5B] transition-colors duration-300">Benefícios</a>
+            <a href="#sobre" class="text-gray-600 hover:text-[#8A9A5B] transition-colors duration-300">Quem Sou</a>
+            <a href="#faq" class="text-gray-600 hover:text-[#8A9A5B] transition-colors duration-300">Dúvidas</a>
+          </nav>
+        </div>
+        <div class="md:hidden">
+          <button id="mobile-menu-button" class="text-gray-600 hover:text-[#8A9A5B] focus:outline-none">
+            <i class="ph-bold ph-list text-2xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden">
+      <a href="#produtos" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-200">Produtos</a>
+      <a href="#beneficios" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-200">Benefícios</a>
+      <a href="#sobre" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-200">Quem Sou</a>
+      <a href="#faq" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-200">Dúvidas</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-bg relative">
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="relative container mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 text-center text-white">
+        <h1 class="text-4xl md:text-6xl font-bold tracking-tight">Transforme sua Saúde e Bem-Estar com Aloe Vera Pura
+        </h1>
+        <p class="mt-6 text-lg md:text-xl max-w-3xl mx-auto">Receba uma consultoria personalizada e adquira produtos
+          Forever Living originais diretamente de uma especialista. A solução natural que você busca está a uma mensagem
+          de distância.</p>
+        <div class="mt-10">
+          <a id="hero-whatsapp-btn"
+            href="https://wa.me/5511980640796?text=Olá!%20Vim%20do%20site%20e%20gostaria%20de%20uma%20consultoria%20sobre%20os%20produtos%20Forever."
+            target="_blank"
+            class="whatsapp-button inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full shadow-lg text-white hover:bg-green-700">
+            <i class="ph ph-whatsapp-logo mr-3 text-2xl"></i>
+            Fale com um Especialista no WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problems & Solutions Section -->
+    <section class="py-16 md:py-24 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Cansado(a) de soluções que não funcionam?</h2>
+        <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Muitas vezes, buscamos bem-estar em produtos cheios de
+          químicos que não entregam o que prometem. A natureza oferece a resposta mais pura e eficaz para sua saúde e
+          beleza.</p>
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Pele Sensível e Sem Vida?</h3>
+            <p class="mt-2 text-gray-600">Descubra o poder calmante e regenerador do Aloe Vera para uma pele
+              visivelmente mais saudável.</p>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Baixa Energia e Digestão Lenta?</h3>
+            <p class="mt-2 text-gray-600">Nossas bebidas nutritivas de Aloe Vera ajudam a otimizar sua digestão e a
+              fortalecer sua imunidade.</p>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Busca por Cuidado Pessoal Natural?</h3>
+            <p class="mt-2 text-gray-600">Oferecemos uma linha completa de higiene e beleza, livre de componentes
+              agressivos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="produtos" class="py-16 md:py-24">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Nossos Produtos Mais Amados</h2>
+          <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Uma seleção especial dos nossos campeões de vendas,
+            escolhidos por seus resultados incríveis.</p>
+        </div>
+
+        <div class="flex justify-center mb-8 md:space-x-4">
+          <button
+            class="tab-button active p-3 text-center md:p-4 rounded-xl border-2 border-transparent transition-colors duration-300"
+            data-tab="1">
+            <img src="./assets/forever-aloe-vera-gel.webp" alt="Imagem do Produto Forever Aloe Vera Gel"
+              class="w-12 h-12 mx-auto md:w-24 md:h-24">
+            <span class="block text-sm mt-2 font-semibold">Aloe Vera Gel</span>
+          </button>
+          <button class="tab-button p-3 md:p-4 rounded-xl border-2 border-transparent transition-colors duration-300"
+            data-tab="2">
+            <img src="./assets/forever-bright-tothgel.webp" alt="Image do Produto Forever Bright Toothgel Icon"
+              class="w-12 h-12 mx-auto md:w-24 md:h-24">
+            <span class="block text-sm mt-2 font-semibold">Bright Toothgel</span>
+          </button>
+          <button class="tab-button p-3 md:p-4 rounded-xl border-2 border-transparent transition-colors duration-300"
+            data-tab="3">
+            <img src="./assets/forever-aloe-lips.webp" alt="Imagem do Produto Aloe Lips Icon"
+              class="w-12 h-12 mx-auto md:w-24 md:h-24">
+            <span class="block text-sm mt-2 font-semibold">Aloe Lips</span>
+          </button>
+          <button class="tab-button p-3 md:p-4 rounded-xl border-2 border-transparent transition-colors duration-300"
+            data-tab="4">
+            <img src="./assets/forever-artic-sea.webp" alt="Imagem do Produto Forever Artic Sea"
+              class="w-12 h-12 mx-auto md:w-24 md:h-24">
+            <span class="block text-sm mt-2 font-semibold">Artic Sea</span>
+          </button>
+        </div>
+
+        <div class="max-w-4xl mx-auto">
+          <!-- Tab 1 Content -->
+          <div id="tab-1" class="tab-content active">
+            <div class="bg-white rounded-xl p-8 grid md:grid-cols-2 gap-8 items-center soft-shadow">
+              <div>
+                <img id="product-img-1" src="./assets/aloe-vera-gel.webp" alt="Forever Aloe Vera Gel"
+                  class="rounded-lg w-full h-auto" width="400" height="400">
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold text-gray-800">Forever Aloe Vera Gel®</h3>
+                <p class="mt-4 text-gray-600">Experimente o poder de 99,7% de puro gel de Aloe Vera. Ideal para auxiliar
+                  na saúde digestiva, fortalecer o sistema imunológico e promover uma absorção de nutrientes mais
+                  eficiente. O carro-chefe da Forever, em sua forma mais pura.</p>
+                <a id="product1-whatsapp-btn"
+                  href="https://wa.me/5511980640796?text=Olá!%20Tenho%20interesse%20no%20Forever%20Aloe%20Vera%20Gel."
+                  target="_blank"
+                  class="mt-6 whatsapp-button inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white">
+                  Pedir este Produto via WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Tab 2 Content -->
+          <div id="tab-2" class="tab-content">
+            <div class="bg-white rounded-xl p-8 grid md:grid-cols-2 gap-8 items-center soft-shadow">
+              <div>
+                <img id="product-img-2" src="./assets/bright-toothgel.webp" alt="Forever Bright Toothgel"
+                  class="rounded-lg w-full h-auto" width="400" height="400">
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold text-gray-800">Forever Bright® Toothgel</h3>
+                <p class="mt-4 text-gray-600">Uma fórmula suave, sem flúor, que combina Aloe Vera e própolis de abelha
+                  para limpar, refrescar e proteger seus dentes e gengivas. Ideal para toda a família, deixa seu hálito
+                  fresco e sua boca saudável de forma natural.</p>
+                <a id="product2-whatsapp-btn"
+                  href="https://wa.me/5511980640796?text=Olá!%20Tenho%20interesse%20no%20Forever%20Bright%20Toothgel."
+                  target="_blank"
+                  class="mt-6 whatsapp-button inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white">
+                  Pedir este Produto via WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Tab 3 Content -->
+          <div id="tab-3" class="tab-content">
+            <div class="bg-white rounded-xl p-8 grid md:grid-cols-2 gap-8 items-center soft-shadow">
+              <div>
+                <img id="product-img-3" src="./assets/aloe-lips.webp" alt="Forever Aloe Lips"
+                  class="rounded-lg w-full h-auto" width="400" height="400">
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold text-gray-800">Forever Aloe Lips™ com Jojoba</h3>
+                <p class="mt-4 text-gray-600">Seu protetor labial para todas as estações. Hidrata e suaviza lábios secos
+                  e rachados com o poder do Aloe Vera, jojoba e cera de abelha. Pequeno no tamanho, gigante nos
+                  benefícios. Leve sempre com você!</p>
+                <a id="product3-whatsapp-btn"
+                  href="https://wa.me/5511980640796?text=Olá!%20Tenho%20interesse%20no%20Forever%20Aloe%20Lips."
+                  target="_blank"
+                  class="mt-6 whatsapp-button inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white">
+                  Pedir este Produto via WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 4 Content -->
+          <div id="tab-4" class="tab-content">
+            <div class="bg-white rounded-xl p-8 grid md:grid-cols-2 gap-8 items-center soft-shadow">
+              <div>
+                <img id="product-img-3" src="./assets/artic-sea.webp" alt="Forever Aloe Lips"
+                  class="rounded-lg w-full h-auto" width="400" height="400">
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold text-gray-800">Forever Arctic Sea®: Saúde para o Coração, Cérebro e
+                  Articulações. </h3>
+                <p class="mt-4 text-gray-600">Cuide do seu corpo de dentro para fora com o Forever Arctic Sea®. Este
+                  suplemento avançado fornece a dose ideal de Ômega 3, essencial para o seu bem-estar. Sua fórmula
+                  exclusiva, rica em DHA e EPA, atua diretamente na saúde do cérebro, melhorando a memória e o foco,
+                  enquanto apoia o sistema cardiovascular para manter o coração forte e os níveis de colesterol
+                  equilibrados. Além disso, suas propriedades anti-inflamatórias são uma grande aliada para a saúde e
+                  conforto das suas articulações.</p>
+                <a id="product3-whatsapp-btn"
+                  href="https://wa.me/5511980640796?text=Olá!%20Tenho%20interesse%20no%20Forever%20Artic%20Sea."
+                  target="_blank"
+                  class="mt-6 whatsapp-button inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white">
+                  Pedir este Produto via WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="py-16 md:py-24 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Mais que Produtos, um Estilo de Vida</h2>
+          <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Ao escolher Forever, você investe na sua saúde com a
+            mais alta qualidade. E ao comprar comigo, você ganha uma aliada para sua jornada de bem-estar.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+          <div class="p-6">
+            <div
+              class="flex items-center justify-center h-16 w-16 rounded-full bg-[#F0F2E6] text-[#8A9A5B] mx-auto text-4xl">
+              <i class="ph ph-leaf"></i>
+            </div>
+            <h3 class="mt-5 text-xl font-semibold">Ingredientes de Qualidade</h3>
+            <p class="mt-2 text-gray-600">Aloe Vera puro, cultivado e colhido com cuidado para garantir máxima potência.
+            </p>
+          </div>
+          <div class="p-6">
+            <div
+              class="flex items-center justify-center h-16 w-16 rounded-full bg-[#F0F2E6] text-[#8A9A5B] mx-auto text-4xl">
+              <i class="ph ph-lightbulb"></i>
+            </div>
+            <h3 class="mt-5 text-xl font-semibold">Consultoria Especializada</h3>
+            <p class="mt-2 text-gray-600">Não sabe qual produto escolher? Eu te ajudo a encontrar a solução perfeita
+              para suas necessidades.</p>
+          </div>
+          <div class="p-6">
+            <div
+              class="flex items-center justify-center h-16 w-16 rounded-full bg-[#F0F2E6] text-[#8A9A5B] mx-auto text-4xl">
+              <i class="ph ph-chat-circle-dots"></i>
+            </div>
+            <h3 class="mt-5 text-xl font-semibold">Atendimento Humanizado</h3>
+            <p class="mt-2 text-gray-600">Converse diretamente comigo pelo WhatsApp para tirar dúvidas e fazer seus
+              pedidos com facilidade.</p>
+          </div>
+          <div class="p-6">
+            <div
+              class="flex items-center justify-center h-16 w-16 rounded-full bg-[#F0F2E6] text-[#8A9A5B] mx-auto text-4xl">
+              <i class="ph ph-shield-check"></i>
+            </div>
+            <h3 class="mt-5 text-xl font-semibold">Compra Segura e Original</h3>
+            <p class="mt-2 text-gray-600">Garanta produtos 100% originais e com a procedência de uma FBO autorizada.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="sobre" class="py-16 md:py-24">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <div class="ml-auto text-center text-left md:text-left">
+            <img src="./assets/foto-de-perfil-patricia.webp" alt="Foto da Consultora FBO Patricia Santos"
+              class="rounded-full w-70 h-70 mx-auto md:mx-0 shadow-lg" width="350" height="350">
+          </div>
+          <div>
+            <h2 class="text-3xl text-center font-bold text-gray-800 md:text-left">Olá! Me chamo Patricia, sua consultora
+              dedicada.</h2>
+            <p class="mt-4 text-lg text-center text-gray-600 md:text-left">Como Empreendedora Independente Forever
+              (FBO), minha paixão é ajudar
+              pessoas a descobrirem o poder do bem-estar através dos produtos incríveis da Forever Living. Mais do que
+              vender, meu objetivo é entender suas necessidades e oferecer a melhor solução, com um acompanhamento
+              próximo e atencioso.</p>
+            <p class="mt-4 text-center text-gray-600 md:text-left">Pode contar comigo para tirar todas as suas dúvidas e
+              te guiar nesta jornada
+              por uma vida mais saudável e equilibrada.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Proof/Testimonials Section -->
+    <section class="py-16 md:py-24 bg-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800">O que meus clientes dizem</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-[#FDFBF7] p-8 rounded-xl soft-shadow">
+            <p class="text-gray-600">"O atendimento da Patricia foi incrível! Ela me ajudou a escolher o gel de Aloe
+              Vera e os resultados para minha digestão foram fantásticos. Super recomendo!"</p>
+            <div class="mt-4 font-bold text-gray-800">- Maria S., São Paulo</div>
+          </div>
+          <div class="bg-[#FDFBF7] p-8 rounded-xl soft-shadow">
+            <p class="text-gray-600">"Nunca mais fico sem o creme dental Bright! E comprar pelo WhatsApp com a Patricia é muito prático e rápido. Confiança total."</p>
+            <div class="mt-4 font-bold text-gray-800">- João P., Rio de Janeiro</div>
+          </div>
+          <div class="bg-[#FDFBF7] p-8 rounded-xl soft-shadow">
+            <p class="text-gray-600">"Tinha muitas dúvidas sobre os produtos e a consultoria foi essencial. Senti muita
+              segurança e profissionalismo. Obrigada pelo carinho e atenção!"</p>
+            <div class="mt-4 font-bold text-gray-800">- Ana C., Belo Horizonte</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 md:py-24">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Perguntas Frequentes</h2>
+        </div>
+        <div class="max-w-3xl mx-auto">
+          <div class="space-y-4">
+            <div class="faq-item bg-white rounded-xl soft-shadow">
+              <button class="faq-question w-full text-left p-6 flex justify-between items-center">
+                <span class="text-lg font-semibold text-gray-800">Os produtos são originais?</span>
+                <i class="faq-icon ph ph-plus text-2xl text-[#8A9A5B]"></i>
+              </button>
+              <div class="faq-answer px-6">
+                <p class="text-gray-600 py-4 border-t border-gray-200">Sim! Todos os produtos são 100% originais,
+                  adquiridos diretamente da Forever Living Brasil. Como FBO autorizada, garanto a procedência e
+                  qualidade de tudo que você adquire comigo.</p>
+              </div>
+            </div>
+            <div class="faq-item bg-white rounded-xl soft-shadow">
+              <button class="faq-question w-full text-left p-6 flex justify-between items-center">
+                <span class="text-lg font-semibold text-gray-800">Como funciona a compra e entrega?</span>
+                <i class="faq-icon ph ph-plus text-2xl text-[#8A9A5B]"></i>
+              </button>
+              <div class="faq-answer px-6">
+                <p class="text-gray-600 py-4 border-t border-gray-200">O processo é muito simples! Você entra em contato
+                  comigo pelo WhatsApp, tiramos todas as suas dúvidas, você escolhe os produtos e combinamos o pagamento
+                  e a forma de entrega mais conveniente para você, seja por correios ou entrega local (se aplicável).
+                </p>
+              </div>
+            </div>
+            <div class="faq-item bg-white rounded-xl soft-shadow">
+              <button class="faq-question w-full text-left p-6 flex justify-between items-center">
+                <span class="text-lg font-semibold text-gray-800">Quais as formas de pagamento?</span>
+                <i class="faq-icon ph ph-plus text-2xl text-[#8A9A5B]"></i>
+              </button>
+              <div class="faq-answer px-6">
+                <p class="text-gray-600 py-4 border-t border-gray-200">Aceito diversas formas de pagamento para sua
+                  comodidade, como PIX, transferência bancária e cartão de crédito (via link de pagamento). Conversamos
+                  e encontramos a melhor opção para você.</p>
+              </div>
+            </div>
+            <div class="faq-item bg-white rounded-xl soft-shadow">
+              <button class="faq-question w-full text-left p-6 flex justify-between items-center">
+                <span class="text-lg font-semibold text-gray-800">O gel de Aloe Vera tem contraindicação?</span>
+                <i class="faq-icon ph ph-plus text-2xl text-[#8A9A5B]"></i>
+              </button>
+              <div class="faq-answer px-6">
+                <p class="text-gray-600 py-4 border-t border-gray-200">O Aloe Vera Gel da Forever é extremamente seguro
+                  para a maioria das pessoas. No entanto, gestantes, lactantes e pessoas com condições médicas
+                  específicas devem sempre consultar um médico antes de iniciar o uso de qualquer suplemento. Durante
+                  nossa conversa, posso te dar mais detalhes sobre isso.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="bg-[#F0F2E6]">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Pronto(a) para começar sua jornada de bem-estar?</h2>
+        <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Não deixe para depois a saúde que você pode ter hoje. Me
+          chame no WhatsApp para uma conversa sem compromisso. Estou aqui para te ajudar!</p>
+        <div class="mt-8">
+          <a id="footer-whatsapp-btn"
+            href="https://wa.me/5511980640796?text=Olá!%20Vim%20do%20site%20e%20quero%20iniciar%20minha%20jornada%20de%20bem-estar."
+            target="_blank"
+            class="whatsapp-button inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full shadow-lg text-white hover:bg-green-700">
+            <i class="ph ph-whatsapp-logo mr-3 text-2xl"></i>
+            Sim, Quero Falar com a Especialista
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center">
+      <p>&copy; 2025 - Produtos Forever. Todos os direitos reservados.</p>
+      <p class="text-xs text-gray-500 mt-2">Este site é de propriedade e operação de um FBO independente da Forever
+        Living Products.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a id="floating-whatsapp-btn"
+    href="https://wa.me/5511980640796?text=Olá!%20Estou%20navegando%20no%20site%20e%20gostaria%20de%20ajuda."
+    target="_blank"
+    class="whatsapp-button fixed bottom-5 right-5 w-16 h-16 rounded-full flex items-center justify-center shadow-lg z-50">
+    <i class="ph-fill ph-whatsapp-logo text-white text-4xl"></i>
+  </a>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Mobile Menu
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+      if (mobileMenuButton) {
+        mobileMenuButton.addEventListener('click', function () {
+          mobileMenu.classList.toggle('hidden');
+        });
+      }
+
+      // Product Tabs
+      const tabButtons = document.querySelectorAll('.tab-button');
+      const tabContents = document.querySelectorAll('.tab-content');
+
+      tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const tabId = button.dataset.tab;
+
+          tabButtons.forEach(btn => btn.classList.remove('active'));
+          button.classList.add('active');
+
+          tabContents.forEach(content => {
+            if (content.id === 'tab-' + tabId) {
+              content.classList.add('active');
+            } else {
+              content.classList.remove('active');
+            }
+          });
+        });
+      });
+
+      // FAQ Accordion
+      const faqItems = document.querySelectorAll('.faq-item');
+      faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        const answer = item.querySelector('.faq-answer');
+        const icon = item.querySelector('.faq-icon');
+
+        question.addEventListener('click', () => {
+          const isOpen = question.classList.contains('open');
+
+          // Close all other FAQs
+          faqItems.forEach(otherItem => {
+            if (otherItem !== item) {
+              const otherQuestion = otherItem.querySelector('.faq-question');
+              otherQuestion.classList.remove('open');
+              otherItem.querySelector('.faq-answer').style.maxHeight = null;
+              otherItem.querySelector('.faq-icon').classList.remove('ph-minus');
+              otherItem.querySelector('.faq-icon').classList.add('ph-plus');
+            }
+          });
+
+          // Toggle current FAQ
+          if (isOpen) {
+            question.classList.remove('open');
+            answer.style.maxHeight = null;
+            icon.classList.remove('ph-minus');
+            icon.classList.add('ph-plus');
+          } else {
+            question.classList.add('open');
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+            icon.classList.remove('ph-plus');
+            icon.classList.add('ph-minus');
+          }
+        });
+      });
+
+      // Smooth scroll for navigation
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href');
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: 'smooth'
+            });
+            // Close mobile menu on click
+            if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+              mobileMenu.classList.add('hidden');
+            }
+          }
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
